@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --text-color: #fff;
+  --bg-color: #1b1f24;
+  --second-bg-color: #22282f;
+  --main-color: #13bbff;
+  --other-color: #c3cad5;
+
+  --h1-font: 4.5rem;
+  --h2-font: 2.9rem;
+  --p-font: 1rem;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+.listA {
+  text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+}
+
+.backdrop-brightness-88 {
+  backdrop-filter: brightness(88%);
+}
