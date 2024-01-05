@@ -11,14 +11,22 @@ export default function Hero() {
       >
         <div className="w-full px-8 lg:w-[1140px] flex flex-col lg:flex-row items-center justify-between">
           <div class=" ">
-            <h4 className="text-2xl text-center lg:text-left">Hi, there!</h4>
-            <h1 className="text-3xl lg:text-6xl my-5 text-center lg:text-left">
-              Im <span>Santiago Tovar</span>
+            <h4 className="text-2xl text-center lg:text-left">
+              Hola! Yo soy :
+            </h4>
+            <h1 className="text-3xl lg:text-6xl my-5 text-center lg:text-left font-semibold text-[#13bbff] ">
+              <span>Santiago Tovar</span>
             </h1>
-            <p className="text-base  font-normal text-center lg:text-left md:mx-14 lg:mx-0 lg:w-[620px] text-[#c3cad5] leading-[30px] mb-4  ">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              culpa soluta necessitatibus perferendis amet libero odio eveniet
-              vel excepturi odit.
+            <p className="text-[18px]  font-normal text-center lg:text-left md:mx-14 lg:mx-0 lg:w-[620px] text-[#c3cad5] leading-[30px] mb-4  ">
+              Soy un apasionado{" "}
+              <span className="text-[#13bbff] ">
+                {" "}
+                desarrollador de software{" "}
+              </span>
+              con 2 años de experiencia. Me especializo en el desarrollo de{" "}
+              sistemas, interfaces de usuario y aplicaciones web. Además, tengo
+              habilidades en el diseño de páginas y la búsqueda de soluciones
+              tecnológicas.
             </p>
             <div class="mb-10  text-center lg:text-left">
               <a href="#">

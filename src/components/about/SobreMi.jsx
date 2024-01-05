@@ -15,13 +15,15 @@ export default function SobreMi() {
         </div>
         <div className="lg:w-[70%] text-center lg:text-left">
           <h2 className="text-3xl mb-4">
-            Sobre <span className="text-[#13bbff] ">mi</span>
+            Acerca <span className="text-[#13bbff] ">de mi</span>
           </h2>
           <p className="leading-8 mb-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab,
-            voluptates aliquid, quisquam harum neque velit tempora rem molestias
-            quo eligendi alias officia pariatur accusantium dignissimos esse
-            molestiae laboriosam, cupiditate voluptate.
+            Soy un desarrollador con 2 años de experiencia Mi enfoque abarca el
+            desarrollo frontend con React y Angular, así como el backend
+            utilizando Laravel y Node.js. Soy un firme creyente de que de que
+            siempre hay algo nuevo por aprender y eso me motiva para mejorar
+            cada dia. Para mi cada proyecto no es solo codigo, es la forma en la
+            que ayudo a las personas a transformar sus ideas en realidad digital
           </p>
           <h5>Conecta conmigo:</h5>
           <div className="flex gap-4 mt-4 text-lg justify-center lg:justify-start mb-4 md:mb-4 lg:mb-0">

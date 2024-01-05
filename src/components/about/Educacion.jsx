@@ -7,16 +7,13 @@ export default function Educacion() {
         <thead class="text-xs text-white uppercase bg-[#13bcffda] dark:bg-gray-700 dark:text-gray-400 h-[75px] ">
           <tr>
             <th scope="col" class="px-6 py-3">
-              Product name
+              Educación
             </th>
             <th scope="col" class="px-6 py-3">
-              Color
+              Institución
             </th>
             <th scope="col" class="px-6 py-3">
-              Category
-            </th>
-            <th scope="col" class="px-6 py-3">
-              Price
+              años
             </th>
           </tr>
         </thead>
@@ -26,33 +23,30 @@ export default function Educacion() {
               scope="row"
               class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white"
             >
-              Apple MacBook Pro 17"
+              Educación Universitaria <br /> (Ing de Software)
             </th>
-            <td class="px-6 py-4 text-white">Silver</td>
-            <td class="px-6 py-4 text-white">Laptop</td>
-            <td class="px-6 py-4 text-white">$2999</td>
+            <td class="px-6 py-4 text-white">IUP Santiago Mariño</td>
+            <td class="px-6 py-4 text-white">2021 - actualidad</td>
           </tr>
           <tr class="border-b bg-[#1b1f24] dark:bg-gray-800 dark:border-gray-700 h-24">
             <th
               scope="row"
               class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white"
             >
-              Microsoft Surface Pro
+              Educación Secundaria
             </th>
-            <td class="px-6 py-4 text-white">White</td>
-            <td class="px-6 py-4 text-white">Laptop PC</td>
-            <td class="px-6 py-4 text-white">$1999</td>
+            <td class="px-6 py-4 text-white">UEP Cecilio Acosta IV</td>
+            <td class="px-6 py-4 text-white">2016 - 2021</td>
           </tr>
           <tr class="bg-[#1b1f24] border-b dark:bg-gray-900 dark:border-gray-700 h-24">
             <th
               scope="row"
               class="px-6 py-4 font-medium text-white whitespace-nowrap dark:text-white"
             >
-              Magic Mouse 2
+              Educación Primaria
             </th>
-            <td class="px-6 py-4 text-white">Black</td>
-            <td class="px-6 py-4 text-white">Accessories</td>
-            <td class="px-6 py-4 text-white">$99</td>
+            <td class="px-6 py-4 text-white">UEP Cecilio Acosta IV</td>
+            <td class="px-6 py-4 text-white">2011 - 2016</td>
           </tr>
         </tbody>
       </table>
