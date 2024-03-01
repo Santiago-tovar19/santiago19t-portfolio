@@ -1,4 +1,5 @@
 import React from "react";
+import useMenu from "../../hooks/useMenu";
 
 export default function Footer() {
   return (

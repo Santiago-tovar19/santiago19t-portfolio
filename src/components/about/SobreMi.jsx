@@ -1,5 +1,6 @@
 import React from "react";
 import useMenu from "../../hooks/useMenu";
+import photo3 from "../../assets/proyectos/Photo3.jpg";
 
 export default function SobreMi() {
   const { showMenu } = useMenu();
@@ -7,11 +8,7 @@ export default function SobreMi() {
     <>
       <div className="flex flex-col lg:flex-row items-center h-full justify-center mx-10 gap-x-16">
         <div className="lg:w-1/3 w-full px-4 py-6 lg:px-0 lg:py-0 md:flex md:items-center md:justify-center">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBaWfPA9uQrTvPsdNuTb2J4hbnP7DrJfQMw&usqp=CAU"
-            alt=""
-            className=""
-          />
+          <img src={photo3} alt="" className="rounded-lg" />
         </div>
         <div className="lg:w-[70%] text-center lg:text-left">
           <h2 className="text-3xl mb-4">
@@ -29,14 +26,26 @@ export default function SobreMi() {
           <div className="flex gap-4 mt-4 text-lg justify-center lg:justify-start mb-4 md:mb-4 lg:mb-0">
             <span
               className={`${
-                showMenu ? "" : "transform hover:scale-110 transition-all"
+                showMenu ? "" : "transform hover:scale-110 transition-al"
               }`}
             >
-              <a href="" className="">
-                <i class="ri-linkedin-line text-[#13bbff] "></i>
+              <a href="https://github.com/Santiago-tovar19" target="_blank">
+                <i class="ri-github-fill text-[#13bbff] text-2xl"></i>
               </a>
             </span>
             <span
+              className={`${
+                showMenu ? "" : "transform hover:scale-110 transition-all"
+              }`}
+            >
+              <a
+                href="https://www.linkedin.com/in/santiago-tovar-86979a2aa/"
+                target="_blank"
+              >
+                <i class="ri-linkedin-line text-[#13bbff] text-2xl"></i>
+              </a>
+            </span>
+            {/* <span
               className={`${
                 showMenu ? "" : "transform hover:scale-110 transition-al"
               }`}
@@ -44,7 +53,8 @@ export default function SobreMi() {
               <a href="">
                 <i class="ri-linkedin-box-fill text-[#13bbff] "></i>
               </a>
-            </span>
+            </span> */}
+            {/*
             <span
               className={`${
                 showMenu ? "" : "transform hover:scale-110 transition-al"
@@ -62,16 +72,7 @@ export default function SobreMi() {
               <a href="">
                 <i class="ri-github-fill text-[#13bbff] "></i>
               </a>
-            </span>
-            <span
-              className={`${
-                showMenu ? "" : "transform hover:scale-110 transition-al"
-              }`}
-            >
-              <a href="">
-                <i class="ri-github-fill text-[#13bbff] "></i>
-              </a>
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

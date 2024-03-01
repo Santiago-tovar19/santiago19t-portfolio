@@ -1,6 +1,8 @@
 import React from "react";
+import useMenu from "../../hooks/useMenu";
 
 export default function Contacto() {
+  const { abrirCorreo } = useMenu();
   return (
     <section
       className="lg:h-screen my-20 lg:mt-0 flex items-center justify-center"
@@ -15,7 +17,10 @@ export default function Contacto() {
           nuevas oportunidades. Escríbeme, y te responderé tan pronto como vea
           tu mensaje.
         </p>
-        <button className="mt-10 inline-block px-7 py-3 bg-[#13bbff] text-[#1b1f24] border-2 border-[#13bbff] rounded-lg font-semibold text-[15px] transition-all duration-500 ease-in-out hover:bg-transparent hover:text-[#13bbff]">
+        <button
+          className="mt-10 inline-block px-7 py-3 bg-[#13bbff] text-[#1b1f24] border-2 border-[#13bbff] rounded-lg font-semibold text-[15px] transition-all duration-500 ease-in-out hover:bg-transparent hover:text-[#13bbff]"
+          onClick={abrirCorreo}
+        >
           Contacto
         </button>
       </div>

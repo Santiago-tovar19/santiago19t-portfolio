@@ -2,7 +2,10 @@ import React from "react";
 
 export default function Proyectos() {
   return (
-    <section className="w-full py-16 bg-[#22282f] flex flex-col items-center justify-center">
+    <section
+      className="w-full py-16 bg-[#22282f] flex flex-col items-center justify-center"
+      id="proyectos"
+    >
       <h2 className="text-4xl mb-10">Mas proyectos</h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 items-center justify-center lg:w-[1240px] px-10 gap-10">
         <div className="bg-[#1b1f24] py-4 px-6 flex flex-col gap-y-5 rounded-lg border-b border-solid border-[#13bbff] hover:transform hover:-translate-y-2 hover:transition-transform duration-500">
@@ -89,7 +92,10 @@ export default function Proyectos() {
               >
                 <i class="ri-arrow-right-up-fill"></i>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://github.com/Santiago-tovar19/cripto-cotize"
+                target="_blank"
+              >
                 <i class="ri-github-line"></i>
               </a>
             </span>
@@ -156,7 +162,10 @@ export default function Proyectos() {
               >
                 <i class="ri-arrow-right-up-fill"></i>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://github.com/Santiago-tovar19/movie-app"
+                target="_blank"
+              >
                 <i class="ri-github-line"></i>
               </a>
             </span>
@@ -185,12 +194,15 @@ export default function Proyectos() {
             </span>
             <span className="text-3xl flex gap-x-4 text-[#abb0b8]">
               <a
-                href="https://movie-app-2-santiago19t.netlify.app"
+                href="https://pokedex-javascript-santiago19t.netlify.app/"
                 target="_blank"
               >
                 <i class="ri-arrow-right-up-fill"></i>
               </a>
-              <a href="" target="_blank">
+              <a
+                href="https://github.com/Santiago-tovar19/pokedex-javascript"
+                target="_blank"
+              >
                 <i class="ri-github-line"></i>
               </a>
             </span>

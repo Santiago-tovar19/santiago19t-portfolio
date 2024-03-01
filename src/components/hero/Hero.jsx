@@ -1,15 +1,18 @@
 import React from "react";
 import useMenu from "../../hooks/useMenu";
+import photo from "../../assets/proyectos/Photo2.png";
+import pdf from "../../assets/pdf/santiago-tovar-cv.pdf";
 
 export default function Hero() {
-  const { showMenu } = useMenu();
+  const { showMenu, abrirCorreo } = useMenu();
+
   return (
     <>
       <section
         class="lg:h-screen my-24 lg:my-0 pt-10  flex flex-col lg:flex-row items-center justify-center "
         id="home"
       >
-        <div className="w-full px-8 lg:w-[1140px] flex flex-col lg:flex-row items-center justify-between">
+        <div className="w-full px-8 lg:w-[1140px] flex flex-col lg:flex-row items-center justify-between gap-4">
           <div class=" ">
             <h4 className="text-2xl text-center lg:text-left">
               Hola! Yo soy :
@@ -29,7 +32,7 @@ export default function Hero() {
               tecnológicas.
             </p>
             <div class="mb-10  text-center lg:text-left">
-              <a href="#">
+              {/* <a href="#">
                 <i
                   class={`
                 ri-facebook-circle-line inline-flex items-center justify-center w-10 h-10 text-[#13bbff] rounded-xl text-xl mr-4 cursor-pointer shadow-xl transition-all
@@ -40,8 +43,8 @@ export default function Hero() {
                 }
                 hover:scale-110 -z-50`}
                 ></i>
-              </a>
-              <a href="">
+              </a> */}
+              <a href="https://github.com/Santiago-tovar19" target="_blank">
                 <i
                   class={`
                 ri-github-line inline-flex items-center justify-center w-10 h-10 text-[#13bbff] rounded-xl text-xl mr-4 cursor-pointer shadow-xl transition-all ${
@@ -52,7 +55,10 @@ export default function Hero() {
                 `}
                 ></i>
               </a>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/santiago-tovar-86979a2aa/"
+                target="_blank"
+              >
                 <i
                   class={`
                 ri-linkedin-line inline-flex items-center justify-center w-10 h-10 text-[#13bbff] rounded-xl text-xl mr-4 cursor-pointer shadow-xl transition-all 
@@ -69,23 +75,21 @@ export default function Hero() {
               <a
                 href="#"
                 class="inline-block px-4 py-2 bg-[#13bbff] text-[#1b1f24] border-2 border-[#13bbff] rounded-lg font-semibold text-[15px] transition-all duration-500 ease-in-out hover:bg-transparent hover:text-[#13bbff] "
+                onClick={() => abrirCorreo()}
               >
-                Hire me
+                Salúdame
               </a>
               <a
-                href="#"
+                href={pdf}
+                target="_blank"
                 class="inline-block px-4 py-2 hover:bg-[#13bbff] hover:text-[#1b1f24] border-2 border-[#13bbff] rounded-lg font-semibold text-[15px] transition-all duration-500 ease-in-out bg-transparent  text-[#13bbff] ml-4"
               >
-                Download VC
+                Curriculum
               </a>
             </div>
           </div>
           <div>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBaWfPA9uQrTvPsdNuTb2J4hbnP7DrJfQMw&usqp=CAU"
-              alt=""
-              className=""
-            />
+            <img src={photo} alt="" />
           </div>
         </div>
       </section>

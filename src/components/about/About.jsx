@@ -7,7 +7,10 @@ import Experiencia from "./Experiencia";
 export default function About() {
   const [aboutFilter, setAboutFilter] = useState("ABOUT");
   return (
-    <section className="lg:h-screen flex bg-[#22282f] py-14 lg:py-0">
+    <section
+      className="lg:h-screen flex bg-[#22282f] py-14 lg:py-0"
+      id="sobre-mi"
+    >
       <div className="w-[1140px] flex flex-col items-center justify-center mx-auto">
         <h2 className="text-white text-4xl text-right mb-10">
           {

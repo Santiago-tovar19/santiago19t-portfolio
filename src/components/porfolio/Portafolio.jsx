@@ -13,7 +13,7 @@ import calend from "../../assets/proyectos/Screenshot_863.png";
 
 export default function Portafolio() {
   return (
-    <section class="portfolio bg-[#1b1f24]  py-20 " id="portfolio">
+    <section class="portfolio bg-[#1b1f24]  py-20 " id="portafolio">
       <div class="center-text">
         <h2 className="text-4xl mb-10">
           <span>Portafolio</span>
@@ -42,7 +42,7 @@ export default function Portafolio() {
           </div>
           <h4>Aplicación web de un quiosco de comida</h4>
         </a>
-        <a class="row md:w-full lg:w-[95%]">
+        {/* <a class="row md:w-full lg:w-[95%]">
           <img src={devjobs} alt="" />
           <div class="main-row">
             <div class="row-text">
@@ -53,10 +53,32 @@ export default function Portafolio() {
             </div>
           </div>
           <h4>Aplicación para buscar empleo remoto </h4>
+        </a> */}
+        <a
+          class="row md:w-full lg:w-[95%]"
+          href="https://react-journal-app-santiago19t.netlify.app/"
+          target="_blank"
+        >
+          <img src={journal} alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Journal App</h5>
+            </div>
+            <div class="row-icon">
+              <a
+                href="https://github.com/Santiago-tovar19/react-journal-app"
+                target="_blank"
+              >
+                {" "}
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <h4>Una aplicación de notas interactiva.</h4>
         </a>
         <a
           class="row md:w-full lg:w-[95%]"
-          href="https://projects.andresjosehr.com/dev-jobs/"
+          href="https://react-pokedex-app-santiago19t.netlify.app/"
           target="_blank"
         >
           <img src={pokedex} alt="" />
@@ -66,7 +88,7 @@ export default function Portafolio() {
             </div>
             <div class="row-icon">
               <a
-                href="https://github.com/Santiago-tovar19/devjobs"
+                href="https://github.com/Santiago-tovar19/react-pokedex-app"
                 target="_blank"
               >
                 {" "}
@@ -153,7 +175,10 @@ export default function Portafolio() {
               <h5>PassWord Generator </h5>
             </div>
             <div class="row-icon">
-              <a href="https://github.com/Santiago-tovar19" target="_blank">
+              <a
+                href="https://github.com/Santiago-tovar19/password-generator"
+                target="_blank"
+              >
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
@@ -194,7 +219,10 @@ export default function Portafolio() {
               <h5>Acordeón de PF</h5>
             </div>
             <div class="row-icon">
-              <a href="https://github.com/Santiago-tovar19" target="_blank">
+              <a
+                href="https://github.com/Santiago-tovar19/fqu-accordion"
+                target="_blank"
+              >
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Educacion() {
   return (
-    <div class="relative overflow-x-auto shadow-md sm:rounded-lg w-[310px] md:w-full rounded-lg">
-      <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg w-[310px] md:w-full rounded-lg h-full">
+      <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 h-full">
         <thead class="text-xs text-white uppercase bg-[#13bcffda] dark:bg-gray-700 dark:text-gray-400 h-[75px] ">
           <tr>
             <th scope="col" class="px-6 py-3">

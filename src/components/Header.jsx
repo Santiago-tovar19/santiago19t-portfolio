@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useMenu from "../hooks/useMenu";
 
 export default function Header() {
-  const { showMenu, setShowMenu } = useMenu();
+  const { showMenu, setShowMenu, abrirCorreo, handleClickMenu } = useMenu();
   console.log(showMenu);
   return (
     <>
@@ -11,7 +11,7 @@ export default function Header() {
         style={{ maxWidth: "1240px", marginLeft: "auto", marginRight: "auto" }}
       >
         <a href="#" class="bg text-[36px] text-[#fff] ">
-          Devp <span className="text-[#13bbff] ">x.</span>
+          Dev <span className="text-[#13bbff] ">S.</span>
         </a>
         <div
           className="bx bx-menu ml-24 md:ml-0 text-4xl z-9999 cursor-pointer lg:hidden"
@@ -38,25 +38,16 @@ export default function Header() {
           </li>
           <li>
             <a
-              href="#about"
+              href="#sobre-mi"
               className="text-lg  font-medium text-[#c3cad5] ml-10 transition-all hover:text-[#13bbff] "
               onClick={() => setShowMenu(false)}
             >
-              about
+              Sobre
             </a>
           </li>
           <li>
             <a
-              href="#services"
-              className="text-lg  font-medium text-[#c3cad5] ml-10 transition-all hover:text-[#13bbff] "
-              onClick={() => setShowMenu(false)}
-            >
-              services
-            </a>
-          </li>
-          <li>
-            <a
-              href="#portfolio"
+              href="#portafolio"
               className="text-lg  font-medium text-[#c3cad5] ml-10 transition-all hover:text-[#13bbff] "
               onClick={() => setShowMenu(false)}
             >
@@ -65,11 +56,20 @@ export default function Header() {
           </li>
           <li>
             <a
+              href="#proyectos"
+              className="text-lg  font-medium text-[#c3cad5] ml-10 transition-all hover:text-[#13bbff] "
+              onClick={() => setShowMenu(false)}
+            >
+              Proyectos
+            </a>
+          </li>
+          <li>
+            <a
               href="#contact"
               className="text-lg  font-medium text-[#c3cad5] ml-10 transition-all hover:text-[#13bbff] "
               onClick={() => setShowMenu(false)}
             >
-              Contact
+              Contacto
             </a>
           </li>
         </ul>
@@ -82,8 +82,9 @@ export default function Header() {
               showMenu ? "" : "transform hover:scale-110 hidden md:block -z-50"
             }
             `}
+            onClick={() => abrirCorreo()}
           >
-            Contact me
+            Contactame
           </a>
         </div>
       </header>
