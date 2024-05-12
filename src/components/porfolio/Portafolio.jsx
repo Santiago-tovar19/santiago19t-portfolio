@@ -10,6 +10,7 @@ import gestor from "../../assets/proyectos/Screenshot_848.png";
 import generador from "../../assets/proyectos/Screenshot_849.png";
 import pokedex from "../../assets/proyectos/Screenshot_851.png";
 import calend from "../../assets/proyectos/Screenshot_863.png";
+import TesloShop from "../../assets/proyectos/Screenshot_1919.png";
 
 export default function Portafolio() {
   return (
@@ -31,16 +32,67 @@ export default function Portafolio() {
               <h5>Quiosco App</h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/quiosco-frontend"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/quiosco-frontend" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Aplicación web de un quiosco de comida</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Php
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Laravel
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Tailwind
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              MySql
+            </span>
+          </div>
+        </a>
+        <a
+          class="row md:w-full lg:w-[95%]"
+          href="https://next-teslo-shop-santiago19t.vercel.app/"
+          target="_blank"
+        >
+          <img src={TesloShop} alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Teslo | Shop</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/Santiago-tovar19/next-teslo-shop" target="_blank">
+                {" "}
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 gap-x-4 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4]  text-center font-bold">
+              NextJs
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              Postgres
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              Prisma
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              Tailwind
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              Eccomerce
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              typeScript
+            </span>
+          </div>
         </a>
         {/* <a class="row md:w-full lg:w-[95%]">
           <img src={devjobs} alt="" />
@@ -56,27 +108,37 @@ export default function Portafolio() {
         </a> */}
         <a
           class="row md:w-full lg:w-[95%]"
-          href="https://react-journal-app-santiago19t.netlify.app/"
+          href="https://react-pokedex-app-santiago19t.netlify.app/"
           target="_blank"
         >
-          <img src={journal} alt="" />
+          <img src={pokedex} alt="" />
           <div class="main-row">
             <div class="row-text">
-              <h5>Journal App</h5>
+              <h5>Pokedex</h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/react-journal-app"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/react-pokedex-app" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Una aplicación de notas interactiva.</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              PokeAPI
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Router
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Pokedex
+            </span>
+          </div>
         </a>
-        <a
+        {/* <a
           class="row md:w-full lg:w-[95%]"
           href="https://react-pokedex-app-santiago19t.netlify.app/"
           target="_blank"
@@ -87,17 +149,62 @@ export default function Portafolio() {
               <h5>Pokedex</h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/react-pokedex-app"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/react-pokedex-app" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Pokedex hecho con react-router</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-[3px] border-[#075fe4] rounded-xl text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white border-[3px] border-[#075fe4] rounded-xl text-center font-bold">
+              PokeAPI
+            </span>
+            <span className="col-span-1 text-white border-[3px] border-[#075fe4] rounded-xl text-center font-bold">
+              Router
+            </span>
+            <span className="col-span-1 text-white border-[3px] border-[#075fe4] rounded-xl text-center font-bold">
+              Pokedex
+            </span>
+          </div>
+        </a> */}
+        <a
+          class="row md:w-full lg:w-[95%]"
+          href="https://react-journal-app-santiago19t.netlify.app/"
+          target="_blank"
+        >
+          <img src={journal} alt="" />
+          <div class="main-row">
+            <div class="row-text">
+              <h5>Journal App</h5>
+            </div>
+            <div class="row-icon">
+              <a href="https://github.com/Santiago-tovar19/react-journal-app" target="_blank">
+                {" "}
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              MaterialUi
+            </span>
+
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              MaterialUi
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Firebase
+            </span>
+          </div>
         </a>
+
         <a
           class="row md:w-full lg:w-[95%]"
           href="https://santiago19t-food-app.netlify.app"
@@ -118,30 +225,60 @@ export default function Portafolio() {
               </a>
             </div>
           </div>
-          <h4>Maquetación de sitio web sobre comida</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Tailwind
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Diseño
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Filtros
+            </span>
+          </div>
         </a>
         <a
           class="row md:w-full lg:w-[95%]"
-          href="https://santiago19t-eccomerce-shop.netlify.app"
+          href="https://calendar-app-santiago19t.netlify.app"
           target="_blank"
         >
-          <img src={eccomerce} alt="" />
+          <img src={calend} alt="" />
           <div class="main-row">
             <div class="row-text">
-              <h5>Eccomerce website</h5>
+              <h5>CalendarApp</h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/react-eccomerce-shop"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/react-calendar-app" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Eccomerce hecho con react</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold">
+              React
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Nodejs
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Express
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Redux
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Calendar
+            </span>
+            <span className="col-span-1 text-white  border-b-4  border-[#075fe4] text-center font-bold">
+              Router
+            </span>
+          </div>
         </a>
+
         <a
           class="row md:w-full lg:w-[95%]"
           href="https://react-user-gestor-app-santiago19t.netlify.app"
@@ -162,7 +299,17 @@ export default function Portafolio() {
               </a>
             </div>
           </div>
-          <h4>Gestor de usuarios hecho con react </h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              React
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              Firebase
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              Gestor
+            </span>
+          </div>
         </a>
         <a
           class="row md:w-full lg:w-[95%]"
@@ -175,39 +322,25 @@ export default function Portafolio() {
               <h5>PassWord Generator </h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/password-generator"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/password-generator" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Generador de contraseñas</h4>
-        </a>
-        <a
-          class="row md:w-full lg:w-[95%]"
-          href="https://calendar-app-santiago19t.netlify.app"
-          target="_blank"
-        >
-          <img src={calend} alt="" />
-          <div class="main-row">
-            <div class="row-text">
-              <h5>CalendarApp</h5>
-            </div>
-            <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/react-calendar-app"
-                target="_blank"
-              >
-                {" "}
-                <i class="ri-github-fill"></i>
-              </a>
-            </div>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              JavaScript
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              Algoritmos
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              CSS
+            </span>
           </div>
-          <h4>desarrollado con React y NodeJs</h4>
         </a>
+
         <a
           class="row md:w-full lg:w-[95%]"
           href="https://faq-santiago19t.netlify.app"
@@ -219,16 +352,23 @@ export default function Portafolio() {
               <h5>Acordeón de PF</h5>
             </div>
             <div class="row-icon">
-              <a
-                href="https://github.com/Santiago-tovar19/fqu-accordion"
-                target="_blank"
-              >
+              <a href="https://github.com/Santiago-tovar19/fqu-accordion" target="_blank">
                 {" "}
                 <i class="ri-github-fill"></i>
               </a>
             </div>
           </div>
-          <h4>Acordeón de preguntas frecuentes</h4>
+          <div className="grid grid-cols-3 gap-x-2 gap-y-4 mt-4">
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              FAQ
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              Javascript
+            </span>
+            <span className="col-span-1 text-white border-b-4  border-[#075fe4] text-center font-bold mb-1">
+              Frecuentes
+            </span>
+          </div>
         </a>
       </div>
     </section>
